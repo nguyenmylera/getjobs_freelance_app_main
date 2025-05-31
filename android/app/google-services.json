@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "690680283978",
+    "project_id": "getjobs-cbaea",
+    "storage_bucket": "getjobs-cbaea.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690680283978:android:486abc2f1e2ab60f7537b3",
+        "android_client_info": {
+          "package_name": "com.example.getjobs_freelance_app_main"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Q52yNC2Zc0ijMCTzR0iLsc3p9rD3Ago"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
