@@ -3,14 +3,11 @@ import 'config/user_state.dart';
 import 'firebase_options.dart';
 import 'package:flutter/material.dart';
 
-// void main() async {
-//   WidgetsFlutterBinding.ensureInitialized();
-//   await Firebase. intializeApp(options: DefaultFirebaseOptions.currentPlatform);
-//   runApp(const MyApp());
-// }
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
   if (Firebase.apps.isEmpty) {
     await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   }
@@ -31,7 +28,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         primarySwatch: Colors.blue,
       ),
-      home: const UserState(),
+      home: const Scaffold(body: Center(child: Text('Test OK'))),
     );
   }
 }

@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "getjobs-cbaea",
+          "appId": "1:690680283978:android:486abc2f1e2ab60f7537b3",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "getjobs-cbaea",
+          "configurations": {
+            "android": "1:690680283978:android:486abc2f1e2ab60f7537b3",
+            "ios": "1:690680283978:ios:700bee816d3347db7537b3",
+            "macos": "1:690680283978:ios:700bee816d3347db7537b3",
+            "web": "1:690680283978:web:5d2b0599a7ef196e7537b3",
+            "windows": "1:690680283978:web:beb3f10b3f8527b17537b3"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
